@@ -7,7 +7,7 @@ module.exports = {
     entry: {app: './src/app.js'},
     output: {
         path: path.resolve(__dirname, 'public'),
-        filename: `[name].js`,
+        filename: `[name].bundle.js`,
     },
     module: {
         rules: [
